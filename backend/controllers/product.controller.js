@@ -6,7 +6,7 @@ const findAll = async (req, res) => {
     res.json({ result });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'error obteniendo los skates' });
+    res.status(500).json({ message: 'error obteniendo los pack de Surftrip' });
   }
 }
 
@@ -16,7 +16,7 @@ const findOne = async (req, res) => {
     res.json({ result });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'error obteniendo el skate' });
+    res.status(500).json({ message: 'error obteniendo el pack de Surftrip' });
   }
 }
 
@@ -27,7 +27,7 @@ const create = async (req, res) => {
     res.json(result);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'error creando un skate' });
+    res.status(500).json({ message: 'error creando un pack de Surftrip' });
   }
 }
 
@@ -38,7 +38,7 @@ const update = async (req, res) => {
     res.json(result);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'error actualizando el skate' });
+    res.status(500).json({ message: 'error actualizando el pack de Surftrip' });
   }
 }
 
@@ -48,7 +48,7 @@ const remove = async (req, res) => {
     res.json(result);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'error borrando un skate' });
+    res.status(500).json({ message: 'error borrando un pack de Surftrip' });
   }
 }
 
