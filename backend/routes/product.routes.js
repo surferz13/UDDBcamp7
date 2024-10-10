@@ -2,7 +2,7 @@
  * @swagger
  * tags:
  *   name: Products
- *   description: Gestión de venta de skates
+ *   description: Gestión de venta de pack de Surftrip
  */
 
 const express = require("express");
@@ -14,12 +14,12 @@ const { findAll, findOne, create, update, remove } = require("../controllers/pro
  * @swagger
  * /products:
  *   get:
- *     summary: Obtener todos los skates
+ *     summary: Obtener todos los pack de Surftrip
  *     tags: [Products]
- *     description: Obtener una lista de los skates
+ *     description: Obtener una lista de los pack de Surftrip
  *     responses:
  *       200:
- *         description: Lista de skates disponibles
+ *         description: Lista de pack de Surftrip disponibles
  *         content:
  *           application/json:
  *             schema:
@@ -33,19 +33,19 @@ router.get("/", findAll);
  * @swagger
  * /products/{id}:
  *   get:
- *     summary: Obtener un producto por su ID
+ *     summary: Obtener un pack de Surftrip por su ID
  *     tags: [Products]
- *     description: Obtener el skate especifico por su ID
+ *     description: Obtener el pack de Surftrip especifico por su ID
  *     parameters:
  *       - in: path
  *         name: id
  *         schema:
  *           type: string
  *         required: true
- *         description: El ID del skate buscado
+ *         description: El ID del pack de Surftrip buscado
  *     responses:
  *       200:
- *         description: Skate obtenido
+ *         description: pack de Surftrip obtenido
  *         content:
  *           application/json:
  *             schema:
@@ -61,7 +61,7 @@ router.get("/:id", findOne);
  *   post:
  *     summary: Crear un nuevo producto
  *     tags: [Products]
- *     description: Crear un nuevo producto
+ *     description: Crear un nuevo pack de Surftrip
  *     requestBody:
  *       required: true
  *       content:
@@ -147,23 +147,23 @@ module.exports = router;
  *       properties:
  *         id:
  *           type: string
- *           description: El ID unico del producto
+ *           description: El ID unico del pack de Surftrip
  *         name:
  *           type: string
- *           description: El nombre del producto
+ *           description: El nombre del pack de Surftrip
  *         description:
  *           type: string
- *           description: La descripción del producto
+ *           description: La descripción del pack de Surftrip
  *         price:
  *           type: number
- *           description: El precio del producto
+ *           description: El precio del pack de Surftrip
  *       required:
  *         - name
  *         - description
  *         - price
  *       example:
  *         id: "123e4567-e89b-12d3-a456-426614174000"
- *         name: "Skate Shortboard"
- *         description: "Skate de tipo urbano y de velocidad"
- *         price: 9.99
+ *         name: "Surftrip Pack Full"
+ *         description: "Incluye clases, equipamiento y alojamiento"
+ *         price: 69.99
  */
