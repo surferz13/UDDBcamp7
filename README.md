@@ -78,6 +78,7 @@ Uso de Mongodb Compass:
 
 - Evidencia sobre sección "Carrito de compra con pasarela de pagos":
 
-![evidencia sección carrito de compras](https://github.com/user-attachments/assets/356811a8-a1c6-4619-ac26-9aee972b0240)
+![image](https://github.com/user-attachments/assets/52c307ec-ffc2-4439-bfca-d6ada46ffacf)
+
 
 
