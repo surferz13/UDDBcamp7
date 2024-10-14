@@ -28,18 +28,7 @@ Frontend
 
 Backend
 
-- Node
-- Express.js
-- JWT
-- bcryptjs
-- cors
-- dotenv
-- mongoose
-- nodemon
-- openapi-backend
-- paypal
-- swagger-jsdoc
-- swagger-ui-express
+- Node, Express.js, JWT, bcryptjs, cors, dotenv, mongoose, nodemon, openapi, paypal, swagger-jsdoc, swagger-ui-express
 
 
 Base de datos
