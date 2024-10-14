@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,18 +33,27 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 2rem; /* Aumentar el padding del body */
+}
+
+.container {
+  max-width: 1200px; /* Aumentar el ancho máximo del contenedor */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem; /* Aumentar el padding lateral */
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em; /* Aumentar el tamaño de fuente del h1 */
   line-height: 1.1;
+  margin-bottom: 2rem; /* Aumentar el margen inferior */
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 1em 2em; /* Aumentar el padding del botón */
+  font-size: 1.2em; /* Aumentar el tamaño de fuente del botón */
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
@@ -52,6 +66,22 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (min-width: 1024px) {
+  /* Estilos para pantallas de laptop y escritorio */
+  body {
+    padding: 4rem; /* Aumentar el padding para pantallas más grandes */
+  }
+  
+  h1 {
+    font-size: 5.2em; /* Aumentar el tamaño de fuente del h1 para pantallas más grandes */
+  }
+  
+  button {
+    padding: 1.5em 3em; /* Aumentar el padding del botón para pantallas más grandes */
+    font-size: 1.4em; /* Aumentar el tamaño de fuente del botón para pantallas más grandes */
+  }
 }
 
 @media (prefers-color-scheme: light) {
