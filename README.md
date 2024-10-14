@@ -2,6 +2,7 @@
 
 
 Aplicación Fullstack de Comercio Electrónico
+
 Catalogo de productos: Viajes turisticos de Surf (Surftrip). Se venden 2 tipos de paquetes de viaje:
 - Paquete Full para principantes
 - Paquetes para surfistas avanzados
@@ -13,28 +14,32 @@ Estructura del proyecto:
 
 Frontend
 
-React (con vite)
-Uso de manejo de estado con useContext y useReducer
-Manejo de ruteo con react-router-dom. Puedes utilizar la v5 o v6
-CSS (TailwindCSS, MUI, Bootstrap, CSS Modules o Styled Components)
-Axios
+- React (con vite)
+- Uso de manejo de estado con useContext y useReducer
+- Manejo de ruteo con react-router-dom. Puedes utilizar la v5 o v6
+- CSS (TailwindCSS, MUI, Bootstrap, CSS Modules o Styled Components)
+- Axios
+
+
 Backend
 
-Node
-Express.js
-JWT
-bcryptjs
-cors
-dotenv
-mongoose
-nodemon
-openapi-backend
-stripe u otra librería de comercio electrónico
-swagger-jsdoc
-swagger-ui-express
+- Node
+- Express.js
+- JWT
+- bcryptjs
+- cors
+- dotenv
+- mongoose
+- nodemon
+- openapi-backend
+- paypal
+- swagger-jsdoc
+- swagger-ui-express
+
+
 Base de datos
 
-MongoDB
+- MongoDB
 
 # Despliegue en Netlify:
 # Evidencia
