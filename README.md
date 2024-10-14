@@ -3,7 +3,7 @@
 
 Aplicación Fullstack de Comercio Electrónico
 
-# Despliegue en Netlify: 
+# Despliegue en Netlify: https://surftripchile7.netlify.app/
 
 Catalogo de productos: Viajes turisticos de Surf (Surftrip). Se venden 2 tipos de paquetes de viaje:
 - Paquete Full para principantes
@@ -12,7 +12,10 @@ Catalogo de productos: Viajes turisticos de Surf (Surftrip). Se venden 2 tipos d
 Este proyecto consiste en la construcción de una aplicación fullstack para una tienda ficticia de viajes de surf y contempla:
 
 Estructura del proyecto:
+
 ![image](https://github.com/user-attachments/assets/986cd246-5f99-4105-82f8-0426d42b32b7)
+
+
 
 Frontend
 
